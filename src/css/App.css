@@ -1,0 +1,121 @@
+html, body, .App, .app, .letter-tile-area {
+  height: 100%
+}
+
+.App {
+  text-align: center;
+  font-family: "Montserrat";
+  float: left;
+  width: 100%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 55px;
+    padding: 5px 0 0 20px;
+    color: white;
+    text-align: left
+}
+
+.kahoot-logo{
+  float: left;
+}
+
+.App-title {
+  font-size: 1.5em;
+  display: inline;
+  margin: 0 0 0 10px;
+  line-height: 53px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.letter-tile-area {
+  overflow: auto;
+  width: calc(100% - 301px);
+  height: 100%;
+  float: left;
+  text-align: left;
+  border-right: 1px solid black;
+}
+
+
+.scoring-area {
+  width: 300px;
+  height: 100%;
+  float: left;
+  overflow: auto
+}
+.scoring-header {
+    background-color: white;
+    height: 54px;
+    padding: 5px 0 0 20px;
+    color: black;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+.scoring-title {
+  font-size: 1.5em;
+  display: inline;
+  margin: 0 0 0 10px;
+  line-height: 53px;
+  color: #C5550B;
+}
+
+tr.scoring-table-header th{
+  border-bottom: 1px solid black
+}
+
+.purple{color: #864cbf}
+
+.aws-btn {
+--button-default-height: 100px;
+--button-default-font-size: 25px;
+--button-default-border-radius: 8px;
+--button-horizontal-padding: 20px;
+--button-raise-level: 4px;
+--button-hover-pressure: 1;
+--transform-speed: 0.1s;
+--button-primary-color: #e26311;
+--button-primary-color-dark: #c5550b;
+--button-primary-color-light: #eceeea;
+--button-primary-color-hover: #864cbf;
+--button-primary-border: 2px solid #ff781a;
+--button-secondary-color: #854cbf;
+--button-secondary-color-dark: #5d3587;
+--button-secondary-color-light: #eceeeb;
+--button-secondary-color-hover: #e36311;
+--button-secondary-border: 2px solid #b064ff;
+--button-anchor-color: #0e4f88;
+--button-anchor-color-dark: #072743;
+--button-anchor-color-light: #ffffff;
+--button-anchor-color-hover: #0d4a7f;
+--button-anchor-border: none;
+}
+
+.letter-button{
+  height: 100px;
+  width: 100px;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 70px;
+  margin: 20px 0 0 20px;
+}
+
+.points-table {
+  width: 100%;
+  border-collapse: collapse;
+
+}
+
+.items-header {
+  margin: 20px 0 0 20px;
+}
